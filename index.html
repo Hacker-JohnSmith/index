@@ -1,13 +1,71 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>个人网站</title>
+    <!--网页头数据及声明-->
+    <meta http-equiv="Content-Language" content="zh-cn">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Window-target" content="_top">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="robots" content="index">
+    <meta name="author" content="hackerjohnsmith">
+    <meta name="keywords" content="hacker, hack, johnsmith , hackerjohnsmith, 黑客, 黑客技术, 网络安全">
+    <meta name="description" content="欢迎来到HackerJohnSmith个人网站">
+    <!--网页重定向-->
+    <meta http-equiv="Refresh" content="1;URL=./index/index.html">
+    <meta http-equiv="Refresh" content="3">
+    <!--控制台提醒-->
+    <script>
+        console.log(" %c 欢迎来到HackerJohnSmith个人网站。年轻人不要老想着开控制台。  \n %c © 2023 %c by HackerJohnSmith. ", "font-size:50px", "color:#fff;background:#366EBB;padding:5px 0;", "color:#000;background:#9DD0FB;padding:5px 0;");
+    </script>
+    <!--IE 8浏览器的页面渲染方式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <!--默认使用极速内核：针对国内浏览器产商-->
+    <meta name="renderer" content="webkit">
+    <!--标题设置-->
+    <title>正在加载...</title>
 </head>
 
 <body>
-    <p>欢迎来到HackerJohnSmith个人网站</p>
-    <br>
-    <p>这只是一个测试版本。</p>
+    <!--防止复制-->
+    <script>
+        //按键触发
+        document.onkeydown = function () {
+            //禁止ctrl+u
+            if (event.ctrlKey && window.event.keyCode == 85) {
+                return false;
+            }
+            //禁止 F12
+            if (window.event && window.event.keyCode == 123) {
+                event.keyCode = 0;
+                event.returnValue = false;
+            }
+            //禁止ctrl+s
+            if (event.ctrlKey && window.event.keyCode == 83) {
+                return false;
+            }
+            //禁止 F5 
+            if (window.event && window.event.keyCode == 116) {
+                event.keyCode = 0;
+                event.returnValue = false;
+            }
+        }
+        //网站禁止右键
+        document.body.oncontextmenu = function () {
+            self.event.returnValue = false
+        };
+        //网站禁止选择文字
+        document.body.onselectstart = function () {
+            self.event.returnValue = false
+        };
+    </script>
 </body>
 
 </html>
+<!--
+    我是HackerJohnSmith.
+    如果您对计算机网络安全感兴趣.
+    欢迎您来联系我(HackerJohnSmith).
+    联系方式:wx(HackerJohnSmith).谢谢
+    我愿意招募计算机小白和社会人士。
+-->
