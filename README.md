@@ -2,6 +2,10 @@
 This is HackerJohnsmith private website.
 这是HackerJohnSmith的个人网站。
 
+### 网站及域名
+个人网站托管在github平台,域名用的也是github的域名
+个人网站: https://hacker-johnsmith.github.io/index
+
 ### 感谢
 本网站使用的是 "無名の主页个人主页html源码织音博客分享"模板
 我十分感谢该模板的创造者，这是我个人见过为数不多的开源好看的模板之一。
